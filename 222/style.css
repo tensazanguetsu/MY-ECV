@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #0073e6;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-picture {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header-content {
+    flex: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #0073e6;
+}
+
+.contact-info ul, .skills ul, .hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li, .skills ul li, .hobbies ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.job {
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.job ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0073e6;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
